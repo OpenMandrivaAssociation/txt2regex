@@ -1,6 +1,6 @@
 %define name	txt2regex
 %define version	0.8
-%define release	1mdk 
+%define release	%mkrel 1 
 
 Summary:	A program to generate regex
 Name:		%{name} 
@@ -48,5 +48,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root,0755) 
 %doc README README.japanese NEWS Changelog TODO
 %{_bindir}/%{name}
-%{_mandir}/man1/%{name}.1.bz2
+%{_mandir}/man1/%{name}.1*
 
