@@ -12,6 +12,7 @@ URL:		http://%{name}.sourceforge.net/
 Source:		http://%{name}.sourceforge.net/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 Requires:	bash >= 2.04
+BuildRoot:	%{_tmppath}/%{name}-buildroot 
 
 %description
 ^txt2regex$ is a Regular Expression "wizard", all written 
