@@ -1,6 +1,6 @@
 %define name	txt2regex
 %define version	0.8
-%define release	%mkrel 1 
+%define release	%mkrel 3 
 
 Summary:	A program to generate regex
 Name:		%{name} 
