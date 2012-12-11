@@ -50,3 +50,38 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Wed Sep 09 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.8-5mdv2010.0
++ Revision: 434492
+- rebuild
+
+* Sun Aug 03 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.8-4mdv2009.0
++ Revision: 261741
+- rebuild
+
+* Wed Jul 30 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.8-3mdv2009.0
++ Revision: 255031
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 0.8-1mdv2008.1
++ Revision: 128684
+- kill re-definition of %%buildroot on Pixel's request
+- use %%mkrel
+- import txt2regex
+
+
+* Sat Jan 08 2005 Oden Eriksson <oeriksson@mandrakesoft.com> 0.8-1mdk
+- 0.8
+
+* Fri Jul 02 2004 Lenny Cartier <lenny@mandrakesoft.com> 0.7-2mdk
+- rebuild
+
+* Thu Jun 05 2003 Lenny Cartier <lenny@mandrakesoft.com> 0.7-1mdk
+- from Blindauer Emmanuel <manu@agat.net> :
+	- Initial RPM
+
