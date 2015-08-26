@@ -1,2 +1,4 @@
+removed_sources:
+  txt2regex-0.8.tar.bz2: 1f4c749004f3e81f88fec1580186d673904d9a7e
 sources:
-  "txt2regex-0.8.tar.bz2": 1f4c749004f3e81f88fec1580186d673904d9a7e
+  txt2regex-0.8.tgz: 367923b1dad95c68b8e46db6888135b8b8d00807
