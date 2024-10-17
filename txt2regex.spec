@@ -4,7 +4,7 @@ Version:	0.8
 Release:	7
 Group:		File tools
 License:	GPLv2
-URL:            http://www.aurelio.net/soft/txt2regex/
+URL:            https://www.aurelio.net/soft/txt2regex/
 Source0:        http://txt2regex.sourceforge.net/%{name}-%{version}.tgz
 BuildArch:	noarch
 Requires:	bash
